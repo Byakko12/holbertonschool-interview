@@ -2,7 +2,12 @@
 #include <stdio.h>
 
 #include "sandpiles.h"
-
+/**
+ * print_grid_sum - Print 3x3 grids sum
+ * @grid1: Left 3x3 grid
+ * @grid2: Right 3x3 grid
+ *
+ */
 static void print_grid_sum(int grid1[3][3], int grid2[3][3])
 {
 	int i, j;
@@ -27,7 +32,11 @@ static void print_grid_sum(int grid1[3][3], int grid2[3][3])
 		printf("\n");
 	}
 }
-
+/**
+ * print_grid - Print 3x3 grid
+ * @grid: 3x3 grid
+ *
+ */
 static void print_grid(int grid[3][3])
 {
 	int i, j;
