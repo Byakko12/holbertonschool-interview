@@ -1,4 +1,7 @@
 #include "palindrome.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * is_palindrome - Function to check palindromes
  * @n: Number to be checked
