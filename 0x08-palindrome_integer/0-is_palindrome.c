@@ -12,7 +12,6 @@ int is_palindrome(unsigned long n)
 	unsigned long num, valr = 0;
 
 	num = n;
-	unsigned long palindrome = 1, no_palindrome = 0;
 
 	while (num != 0)
 	{
@@ -21,7 +20,7 @@ int is_palindrome(unsigned long n)
 		num = num / 10;
 	}
 	if (n == valr)
-		return (palindrome);
+		return (1);
 	else
-		return (no_palindrome);
+		return (0);
 }
