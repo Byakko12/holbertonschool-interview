@@ -26,4 +26,3 @@ request.get(URL, async (err, response, body) => {
     }
   }
 });
-Footer
